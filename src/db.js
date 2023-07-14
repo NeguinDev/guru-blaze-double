@@ -11,7 +11,7 @@ export function saveSequences(newSequences) {
 
 	const uniqueSequences = removeDuplicates(sequences);
 
-	fs.writeFileSync('./assets/sequences.json', JSON.stringify(uniqueSequences));
+	fs.writeFileSync('./assets/sequences.json', JSON.stringify(uniqueSequences, null, '\t'));
 
 	return uniqueSequences;
 }
