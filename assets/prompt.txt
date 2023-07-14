@@ -1,0 +1,16 @@
+Analise a sequência fornecida e identificar os padrões repetitivos com base em um intervalo de 5 jogadas.
+Não guarde as que se repetirem menos de 5 vezes e deixe em uma ordem decresente, maiores vezes primeiro no array
+Em seguida, retorne o json no seguinte formato de exemplo:
+
+{
+	"sequences": [
+		{
+			"sequence": ["black","red","black","white","black"],
+			"times": 10
+		},
+		{
+			"sequence": ["black","red","black","black","black"],
+			"times": 9
+		}
+	]
+}
